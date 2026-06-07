@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <form>
+                <h1>sign in</h1>
+                <h6>or use your account</h6>
+                <input type="text" name="" id="" placeholder="Enter Email"><br>
+                <input type="" placeholder="Password">
+                <p>forget your password?</p>
+                <button>SIGN IN</button>
+            </form>
+        </div>
+        <div class="right">
+            <section>
+                <h1>Sign UP</h1>
+                <P>Sign up here if your have account</P>
+                <button id="one">SIGN UP</button>
+            </section>
+        </div>
+    </div>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            position: relative;
+            top: 200px;
+            background-color: rgb(247, 116, 134);
+        }
+
+        .left {
+            display: inline-block;
+            width: 400px;
+            height: 500px;
+            text-align: center;
+            background-color: rgb(238, 243, 243);
+        }
+
+        .right {
+            display: inline-block;
+            width: 400px;
+            height: 500px;
+            position: relative;
+            bottom: 242px;
+            right: 5px;
+            text-align: center;
+            background-color: aquamarine;
+        }
+
+        form {
+            margin-top: 80px;
+        }
+
+        input {
+            padding: 15px 90px 15px 0px;
+            margin-top: 15px;
+        }
+
+        p {
+            font-size: large;
+        }
+
+        button {
+            padding: 8px 30px;
+            border-radius: 10px;
+            border: 2px aquamarine;
+            background-color: aquamarine;
+            color: bisque;
+        }
+
+        #one {
+            padding: 8px 30px;
+            border-radius: 10px;
+            border: 2px solid antiquewhite;
+            background-color: aquamarine;
+            color: bisque;
+        }
+
+        section {
+            position: relative;
+            top: 140px;
+        }
+
+        section h1,
+        p {
+            color: white;
+        }
+
+        @media screen and (max-width:840px) {
+            body {
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+            .right {
+                margin-left: 350px;
+                position: relative;
+                bottom: 500px;
+            }
+        }
+
+        @media screen and (max-width:480px) {
+            body {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .right {
+                margin-top: 250px;
+                margin-left: 5px;
+                position: relative;
+                bottom: 0;
+                margin: 0;
+                display: block;
+            }
+
+        }
+    </style>
+</body>
+
+</html>

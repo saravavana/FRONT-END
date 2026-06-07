@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <div class="container">
+        <div class="top"><h1>What Makes Us Different</h1>
+            <p id="para">To build a brand. to have a unique style and to be distintive on the market is a must for <br>
+            every company. We create strategy and design with production across all platforms.</p>
+        </div>
+        <div class="box">
+        <div id="cone"><h2>BRANDING</h2>
+            <p class="none">Logo design business cards corporate <br> stationery and  development of <br> branding across print social media</p>
+        <button>more</button>
+        </div>
+        <div id="ctwo"><h2>PRINT</h2>
+           <p class="none"> Flyers Leafets exhibition graphics <br>brochuhres product catalogues reports <br>and packaging</p>
+            <button>more</button>
+        </div>
+        
+        <div id="cthree"><h2>DIGITAL</h2>
+            <P class="none">Responsive websites (static HTML and <br>CMS-Wordpress). graphics for social <br>media.web banner advertising</P>
+            <button>more</button></div>
+
+        </div>
+        <div id="cfour">image  from <span>Freepik </span></div>
+
+        </div>
+        <style>
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center; 
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url(bac.jpeg);   
+    text-align: center;
+}
+.container{
+    margin-top:40px;
+}
+.box{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    margin-top: 50px;
+    column-gap: 55%;
+    margin-right: 190px;
+    justify-content: center;
+
+}
+h1{
+    color: white;
+   font-family: sans-serif;
+   font-size: 55px;
+   font-weight: 100; 
+}
+#para{
+    position: relative;
+    bottom: 30px;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.664);
+}
+#cone{
+    position: relative;
+    right: 40px;
+    bottom: 30px;
+    background-color: white;
+    width: 310px;
+    height: 300px;
+    padding-top: 70px ;
+    text-align: start;
+    padding-left: 30px;
+    
+
+}
+#ctwo{
+    position: relative;
+    right: 20px; 
+    bottom: 30px;  
+    background-color: white;
+    width: 310px;
+    height: 300px;
+    padding-top: 70px ;
+    text-align: start;
+    padding-left: 30px;
+
+}
+#cthree{
+    position: relative;
+    background-color: white;
+    bottom: 30px;
+    width: 310px;
+    height: 300px;
+    padding-top: 70px ;
+    text-align: start;
+    padding-left: 30px;
+
+}
+.none{
+    color: rgba(0, 0, 0, 0.603);
+    font-style:oblique;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 23px;
+    font-size: 17px;
+    font-weight: 900;
+    margin-top: 30px;
+}
+h2{
+    margin-top: 40px;
+}
+button{
+    margin-top: 10px;
+    padding: 10px 30px;
+    background-color: rgba(255, 0, 0, 0.89);
+    color: white;
+    border:1px solid red;
+}
+#cfour{
+    color: white;
+    font-size: 20px;
+
+}
+span{
+    text-decoration: underline;
+}
+@media screen and (max-width:868px){
+    .box{
+        grid-template-columns:100px 100px;
+        grid-template-rows: 400px;
+    }
+    #cthree{
+        margin-left: 150px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+        </style>
+    </body>
+</html>

@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+    <body>
+        <div class="container">
+    <nav>
+        <div><h1 id="logo">PraRoz</h1></div>
+        <ul>
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="service.html">SERVICE</a></li>
+            <li><a href="design.html">DESIGN</a></li> 
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+           <div>
+         <input type="search" name="" id="Search" placeholder="Type to Search "><span><button id="Searcha">search</button></span>
+           </div>
+    </nav>
+    <div class="left">
+        <h1 id="lone">Web Design &</h1>
+        <h1 id="ltwo">Development</h1>
+        <h1 id="lthree">Course</h1>
+        <h4 class="pone">Web Design is a specialisation of the design stream.They also use HTML,</p>
+           <h4 class="ptwo"> CSS,WYSIWYG editing software, mark up validators etc.,</p>
+            <h4 class="pthree">to create design elements.
+        </p>
+        <button class="jion-button">JION US</button>
+
+    </div>
+     <div class="right">
+<div>
+<form action="">
+    <h2 class="login-head">Login here</h2>
+    <input type="email" name="" placeholder="Enter Email Here">
+ <br>
+    <input type="password" placeholder=" Enter Password Here">
+ <br>   <button id="login-button">LOGIN</button>
+
+<p id="rnsix">Don't have an account?</p>
+<p id="signup"> Sign up</p><span><p id="rneight">here</p></span>
+
+</form>
+</div>
+     </div>
+        </div>
+    <style>
+           
+        body{
+            display: flex;
+            flex-wrap: wrap;
+            height: 100vh;
+            width: 100%;
+            background-image: url(front.jpeg);
+            background-attachment:fixed ;
+            background-size:cover;
+            background-position: center;
+        }
+        h1{
+            color: orangered;
+        }
+        #logo{
+            position: relative;
+            top: 9px;
+            font-size: 35px;
+            margin-left: 78px;
+        }
+        a{
+            color: whitesmoke;
+            font-family:fantasy ;
+            text-decoration: none;
+            margin: 40px;
+            position: relative;
+            bottom: 45px;
+            right: 90px;
+            font-size: 19px;
+        }
+
+        ul{
+            display: flex;
+            justify-content: center;
+            list-style-type: none;
+            margin-left: 500px;
+            
+        }
+        #Search{
+            position: relative;
+            left: 1256px; 
+            bottom: 94px; 
+            padding: 8px; 
+            padding-right: 12px;
+            background-color: rgba(0, 0, 0, 0.63);
+            color: antiquewhite;
+            border: 1px solid;
+            border-color: rgba(224, 117, 78, 0.644) ;
+        }
+         #Searcha{
+            position: relative;
+            left: 1245px; 
+            bottom: 95px; 
+            padding: 9px 19px; 
+            background-color: rgb(224, 66, 9);
+            color: antiquewhite;
+             border: 1px solid rgba(224, 117, 78, 0.644); 
+            }
+        button{
+           background-color: rgb(224, 66, 9);
+           border: 1px solid orangered;
+           color: antiquewhite;
+        }
+        .left{
+            position: relative;
+            top: 50px;
+            margin-left: 98px;
+            text-align: left;
+            
+        }
+        #lone,#lthree{
+            color: antiquewhite;
+        }
+        #lone{
+            font-size: 45px;
+        }
+         #ltwo{
+            position: relative;
+            bottom: 45px;
+            font-size: 60px;
+        }
+        #lthree{
+            position: relative;
+            bottom: 90px;
+            font-size: 45px;
+        }
+
+         .pone{
+            font-size: 19px;
+            color: antiquewhite;
+            position: relative;
+            bottom: 120px;
+        }
+        .ptwo{
+            font-size: 19px;
+            color: antiquewhite;
+            position: relative;
+            bottom: 140px;
+        }
+        .pthree{
+            font-size: 19px;
+            color: antiquewhite;
+            position: relative;
+            bottom: 160px;
+        }
+        .jion-button{
+            padding: 10px 45px;
+            position: relative;
+            top: 19px;
+            color: black;
+            border-radius: 6px;
+            border: none;
+        }
+        .right{
+            padding-top: 20px;
+            width: 290px;
+            height: 370px;
+            background-color: rgba(0, 0, 0, 0.849);
+            border-radius:10px;
+            color: antiquewhite;
+            position: relative;
+            text-align: center;
+            left: 1256px;
+            bottom: 470px;
+        }
+        .login-head{
+            margin-left: 25px;
+            border-radius: 5px;
+            width: 230px;
+            padding: 4px;
+            background-color: antiquewhite;
+            color: orangered;
+        }
+        input{
+            margin-right: 10px;
+            margin-bottom: 10px;
+            font-size: 15px;
+            padding: 12px;
+            padding-right: 30px;
+            color:#d10d0d;
+            background: transparent;
+            background-color: rgba(0, 0, 0, 0.137);
+            border: none;
+            border-bottom: 1px solid white;
+        }
+        #login-button{
+            margin-top: 10px;
+            border-radius: 5px;
+            width: 230px;
+            height: 29px;
+            margin-right: 5px;
+            background-color: orangered;
+            color: black;
+        }
+        #rnsix{
+            position: relative;
+            top: 10px;
+            margin-right: 5px;
+            padding-bottom: 5px;
+        }
+        #signup{
+            position: relative;
+            bottom: 5px;
+            text-align: left;
+            margin-left: 100px;
+            color: orangered;
+        }
+        #rneight{
+            position: relative;
+            bottom: 39px;
+            left: 23px;
+        } 
+    </style>
+
+</body>
+
+</html>

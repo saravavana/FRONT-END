@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+<div class="calc">
+    <div class="container">
+    <div class="zero">0</div>
+    </div>
+    <div class="mark">   
+    <div class="two">C</div>   
+    <div class="two">+/-</div>   
+    <div class="two">%</div> 
+    <div class="tree">/</div> 
+    <div class="one">7</div> 
+    <div class="one">8</div>
+    <div class="one">9</div>
+    <div class="tree">x</div>
+    <div class="one">4</div>
+    <div class="one">5</div>
+    <div class="one">6</div>
+    <div class="tree">-</div>
+    <div class="one">3</div>
+    <div class="one">2</div>
+    <div class="one">1</div>
+    <div class="tree">+</div>
+    <div class="one">0</div>
+    <div class="one">.</div>
+    <div class="one">-</div>
+    <div class="tres">=</div>
+    </div>
+</div>
+    
+    <style>
+        body{
+            background-color: rgb(236, 154, 99);
+        }
+        .calc{
+            display: grid;
+            justify-content: center;
+            position: relative;
+            top: 200px;
+
+        }
+        .container{
+            border-top-right-radius:10px ;
+            border-top-left-radius:10px ;
+            display: grid;
+            justify-content: end;
+            background-color: rgb(83, 81, 81);
+            font-size: 50px;
+            position: relative;
+            color: antiquewhite;
+            width: 300px;
+            height: 145px;
+            text-align: end;
+            box-shadow: -10px 10px 10px inset  rgb(22, 22, 22);
+        }
+        .zero{
+            margin-top: 74px;
+            margin-right: 10px;
+        }
+        .mark{
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px ;
+            display: grid;
+            position: relative;
+            background-color: rgb(239, 243, 243);
+            font-size: 25px;
+            text-align: center;
+            justify-content: center;
+            color: rgba(17, 17, 17, 0.767);
+            width: 300px;
+            height: 320px;
+            position: relative;
+            bottom: 20px;
+            grid-template-columns: 75px 75px 75px 75px;
+            box-shadow: -10px 10px 10px inset rgb(22, 22, 22);
+
+        }
+        
+        .one{
+            border: 1px solid rgba(190, 185, 185, 0.24);
+            text-align: center;
+            margin-top: 5px;
+            padding: 12px ;
+            padding-left: 5px;
+                }
+        .two{
+            border: 1px solid rgba(190, 185, 185, 0.24);
+            text-align: center;
+            background-color: rgb(204, 209, 214);
+            padding: 10px ;
+            padding-left: 5px;
+                }
+        .tree{
+            border: 1px solid rgba(190, 185, 185, 0.24);
+            text-align: center;
+            background-color: rgb(235, 144, 59);
+            padding: 10px ;
+            padding-top: 12px;
+            padding-left: 5px;
+         }
+         .tres{
+            border: 1px solid rgba(190, 185, 185, 0.24);
+            text-align: center;
+            background-color: rgb(253, 124, 4);
+            padding: 10px ;
+            padding-left: 5px;
+            padding-top: 18px;
+            border-bottom-right-radius: 10px ;
+         }
+    </style>
+</body>
+</html>
