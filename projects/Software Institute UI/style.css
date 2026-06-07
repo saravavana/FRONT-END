@@ -5,7 +5,7 @@
     scroll-behavior: smooth;
 }
 
-body {
+body {   
     font-family: Arial, sans-serif;
     color: #333333;
     background-color: #fcfcfc;
@@ -117,16 +117,10 @@ header button:hover {
     border-radius: 20px;
     border: 1px solid rgba(255, 255, 255, 0.8);
     box-shadow: 0 8px 32px rgba(31, 38, 135, 0.15);
-    animation-name: fadein;
+
 }
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
+
+
 
 .home-box h1 {
     font-size: 2.9rem;
@@ -206,7 +200,7 @@ header button:hover {
 }
 
 .services {
-    background-color: #ffaa71;
+    background-color: #fffd71;
 }
 
 .service-title {
@@ -226,17 +220,15 @@ header button:hover {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 1.5rem;
+    gap: 0.6rem;
     margin-top: 1rem;
+     max-width: 2300px;
 }
 
-.services .container {
-    max-width: 2000px;
 
-}
 
 .service-card {
-    width: 410px;
+    width: 350px;
     height: 550px;
     background-color: #ffffff;
     border-radius: 8px;
@@ -513,7 +505,7 @@ header button:hover {
     }
 
     header nav ul {
-
+        font-size: 5px;
         gap: 1.4rem;
         margin-right: 70px;
     }
