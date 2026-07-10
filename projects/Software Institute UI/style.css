@@ -10,6 +10,7 @@ body {
     color: #333333;
     background-color: #fcfcfc;
     line-height: 1.6;
+    box-sizing: border-box;
 }
 
 .container {
@@ -34,13 +35,14 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
+    height: 10%;
     z-index: 1000;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 header .logo {
     color: #ffffff;
-    font-size: 2rem;
+    font-size: 1.7rem;
     font-weight: 700;
     letter-spacing: 0.5px;
     display: flex;
@@ -61,7 +63,7 @@ header nav ul {
 header a {
     color: rgba(255, 255, 255, 0.85);
     text-decoration: none;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     font-weight: 500;
     transition: color 0.2s ease;
 }
@@ -78,7 +80,7 @@ header nav a:hover {
 
 header button {
     margin-left: 90px;
-    padding: 2px 10px;
+    padding: 2px 8px;
     border-radius: 5px;
     color: #000;
     background: rgba(255, 255, 255, 0.342);
@@ -98,8 +100,8 @@ header button:hover {
 .home {
     height: 85vh;
     margin-top: 60px;
-    background: url('bag3.png');
-    background-position: center;
+    background: url('images/bag3.png');
+    background-position:center ;
     background-size: cover;
     position: relative;
     display: flex;
@@ -108,15 +110,14 @@ header button:hover {
 }
 
 .home-box {
-    background: #1FA2FF;
     background: -webkit-linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);
     background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);
-    margin: 0px 0px 0px 150px;
+    margin: 0px 0px 0px 90px;
     height: 400px;
     width: 520px;
     border-radius: 20px;
     border: 1px solid rgba(255, 255, 255, 0.8);
-    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.15);
+    box-shadow: 8px 8px 2px 2px rgba(31, 38, 135, 0.15);
 
 }
 
@@ -218,11 +219,11 @@ header button:hover {
 .services-main {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    
     justify-content: center;
-    gap: 0.6rem;
+    gap: 0.5rem;
     margin-top: 1rem;
-     max-width: 2300px;
+     max-width: 2400px;
 }
 
 
@@ -283,7 +284,6 @@ header button:hover {
 .review-main {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: center;
     gap: 2.5rem;
     margin-top: 1rem;
@@ -292,7 +292,8 @@ header button:hover {
 .review-card {
     background-color: #ffffff;
     border-radius: 8px;
-    width: 450px;
+    width: 400px;
+    height: 480px;
     overflow: hidden;
     box-shadow: 0 4px 15px rgba(255, 83, 83, 0.05);
     padding-bottom: 1rem;
@@ -317,7 +318,7 @@ header button:hover {
 
 .review-card img {
     margin-top: 20px;
-    margin-left: 175px;
+    margin-left: 150px;
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -328,11 +329,14 @@ header button:hover {
     text-align: center;
     color: rgb(252, 128, 83);
     font-size: 25px;
+    position: relative;
+    bottom: 30px;
+
 }
 
 .review-card h3 {
     text-align: center;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     color: #da882b;
     padding: 2rem 1.5rem 0.5rem 1.5rem;
     font-weight: 900;
@@ -341,54 +345,62 @@ header button:hover {
 
 .review-card p {
     color: #302e2e;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     padding: 0 1.5rem;
+    position: relative;
+    bottom: 40px;
 }
 
 .review-card .bi-chat-right-quote-fill {
     margin-left: 10px;
     font-size: 40px;
     color: rgb(61, 155, 243);
+    position: relative;
+    bottom: 40px;
 }
 
 .contact {
     display: flex;
     flex-wrap: wrap;
-    padding-top: 60px;
+    padding-top: 50px;
     padding-bottom: 20px;
-    background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(176, 229, 208, 1) 42%, rgba(92, 202, 238, 0.41) 93.6%);
+    background-image: radial-gradient(circle farthest-corner at 10% 20%, rgb(149, 241, 204) 42%, rgba(92, 202, 238, 0.41) 93.6%);
 }
 
 .contact .container {
     width: fit-content;
-    background-color: #ffffff8e;
+    background-color: #ffffffef;
     margin-bottom: 10px;
     box-shadow: 0px 20px 25px 20px black;
 }
 
 .contact-title {
     text-align: center;
+    position: relative;
+    bottom: 50px;
 }
 
 .contact-main {
-    max-width: 950px;
+    max-width: 500px;
     margin: 0 auto;
 }
 
 .contact-form {
-    margin-bottom: 4rem;
+position: relative;
+bottom: 50px;
 }
 
 .contact .container {
-    width: 950px;
-    box-shadow: 0px 0px 1px 2px #a7a3a3;
+    width: 650px;
+    height: 600px;
+    box-shadow: 0px 0px 10px 2px #363535;
 }
 
 .form-row {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-    margin-bottom: 1.5rem;
+    gap: 10px;
+    margin-bottom: 1rem;
 }
 
 .input-group {
@@ -406,7 +418,7 @@ header button:hover {
 .input-group textarea {
     border: none;
     border-bottom: 1px solid #c0c0c0;
-    padding: 0.6rem 0.2rem;
+    padding: 0.6rem 0rem;
     font-size: 1rem;
     font-family: inherit;
     background: transparent;
@@ -443,7 +455,7 @@ header button:hover {
 }
 
 .contact-info {
-    height: 170px;
+    height: 100px;
     background-color: rgb(31, 117, 245);
     align-items: center;
     padding-top: 2rem;
@@ -472,54 +484,272 @@ header button:hover {
     font-size: 0.95rem;
 }
 
-@media (max-width: 768px) {
-    header {
-        padding: 1rem 2rem;
-    }
 
-    .about-grid,
-    .contact-info-block {
-        grid-template-columns: 1fr;
-        gap: 2.5rem;
-    }
 
-    .review-main {
-        margin: 90px;
-        flex-direction: column;
+@media (max-width:992px){
 
-    }
+header{
+    padding:15px 30px;
+}
 
-    .review-card {
-        width: fit-content;
-    }
+header nav ul{
+    gap:15px;
+}
 
-    .services-main {
-        margin: 100px;
-        flex-direction: column;
+header a{
+    font-size:18px;
+}
 
-    }
+header button{
+    margin-left:30px;
+}
 
-    header button {
-        padding: 10px 15px;
-        margin-left: 30px;
-    }
+.home-box{
+    width:450px;
+    height:auto;
+    padding:20px;
+    margin-left:40px;
+}
 
-    header nav ul {
-        font-size: 5px;
-        gap: 1.4rem;
-        margin-right: 70px;
-    }
+.home-box h1{
+    font-size:2.3rem;
+}
 
-    .form-row {
-        width: 700px;
-        grid-template-columns: 1fr;
-        gap: 1.5rem;
-    }
+.about-box{
+    grid-template-columns:1fr;
+}
 
-    .contact .container {
-        box-shadow: none;
-    }
+.services-main{
+    flex-wrap:wrap;
+}
+
+.review-main{
+    flex-wrap:wrap;
+}
+
+.contact .container{
+    width:90%;
+    height:auto;
+}
 
 }
 
-@media (max-width: 968px) {}
+
+@media (max-width:768px){
+
+header{
+    
+    height:auto;
+    padding:15px;
+}
+
+header nav{
+
+    align-items:center;
+}
+
+header nav ul{
+    text-align:center;
+    gap:10px;
+    margin-top:15px;
+    margin-right: 40px;
+}
+
+header button{
+    margin:15px;
+}
+
+.home{
+    justify-content:center;
+    text-align:center;
+    padding:20px;
+}
+
+.home-box{
+    width:100%;
+    height:auto;
+    margin:0;
+    padding:20px;
+}
+
+.home-box h1{
+    font-size:2rem;
+}
+
+.home-box h2{
+    font-size:1.4rem;
+}
+
+.home-box p{
+    font-size:1rem;
+}
+
+.blue-line{
+    margin:auto;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.about{
+    padding-top:60px;
+}
+
+.about-box{
+    grid-template-columns:1fr;
+    gap:30px;
+}
+
+.about-content h2{
+    text-align:center;
+}
+
+.blue-line-left{
+    margin:auto;
+    margin-top:15px;
+    margin-bottom:20px;
+}
+
+.services-main{
+    flex-direction:column;
+    align-items:center;
+}
+
+.service-card{
+    width:100%;
+    max-width:350px;
+}
+
+.review-main{
+    flex-direction:column;
+    align-items:center;
+}
+
+.review-card{
+    width:100%;
+    max-width:360px;
+    height:auto;
+}
+
+.review-card img{
+    margin:20px auto;
+    display:block;
+}
+
+.review-card p,
+.review-card .bi-chat-right-quote-fill,
+.review-card .icon{
+    position:static;
+}
+
+.contact .container{
+    width:95%;
+    padding:30px 20px;
+}
+
+.form-row{
+    grid-template-columns:1fr;
+}
+
+.contact-main{
+    max-width:100%;
+}
+
+.info-text{
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+}
+
+.contact-info{
+    height:auto;
+    padding:20px;
+}
+.contact-title{
+    margin-top: 30px;
+}
+}
+
+
+@media (max-width:480px){
+    
+    header{
+    flex-direction: column;
+    height:auto;
+    padding:15px;
+}
+
+header nav{
+
+    align-items:center;
+}
+
+header nav ul{
+    
+    text-align:center;
+    gap:8px;
+    margin-top:45px;
+    margin-right: 0px;
+}
+
+header button{
+    font-size: 10px;
+    margin:15px;
+    position: relative;
+    top: 9px;
+}
+
+.container{
+    padding:60px 15px;
+}
+
+.home-box h1{
+    font-size:1.7rem;
+}
+
+.home-box h2{
+    font-size:1.2rem;
+}
+
+.home-box p{
+    font-size:15px;
+}
+
+.service-card{
+    width:100%;
+    height: 50%;
+}
+
+.service-card img{
+    height:220px;
+}
+
+.service-card h3{
+    font-size:22px;
+}
+
+.service-card p{
+    font-size:16px;
+}
+
+.review-card{
+    width:100%;
+}
+
+.review-card img{
+    width:80px;
+    height:80px;
+}
+
+.review-card h3{
+    font-size:20px;
+}
+
+.review-card p{
+    font-size:15px;
+}
+
+.contact-btn{
+    width:100%;
+}
+
+}
