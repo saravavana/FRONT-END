@@ -39,7 +39,7 @@ body{
 }
 
 .quiz-box{
-    width: 550px;
+    width: 500px;
     position: relative;
     overflow: hidden;
     padding:30px;
@@ -221,7 +221,7 @@ transform: translateY(-5px);
 
 
 .progress{
-    width:43%;
+    width:40%;
     height:20px;
     background:#ddd;
     border-radius:20px;
